@@ -4,10 +4,10 @@ Add HADHOOP_HOME and %HADOOP_HOME%\bin with winutils.exe and hadoop.dll in windo
 
 Set Environment variables for:
 
-* $ export ENVIRON=PROD
-* $ export SRC_DIR=s3://emr-shashank-iam/prd/landing/ghactivity/
-* $ export SRC_FILE_FORMAT=json
-* $ export TGT_DIR=s3://emr-shashank-iam/prd/raw/ghactivity/
+export ENVIRON=PROD
+export SRC_DIR=s3://emr-shashank-iam/prd/landing/ghactivity/
+export SRC_FILE_FORMAT=json
+export TGT_DIR=s3://emr-shashank-iam/prd/raw/ghactivity/
 
 Run App.py main method
 
