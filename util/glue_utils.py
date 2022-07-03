@@ -39,6 +39,3 @@ def glue_get_table():
         DatabaseName='retail_db',
         Name='orders'
     )['Table']
-
-
-print(glue_get_table())
