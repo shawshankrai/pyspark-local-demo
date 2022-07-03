@@ -3,9 +3,12 @@
 Add HADHOOP_HOME and %HADOOP_HOME%\bin with winutils.exe and hadoop.dll in windows system environment
 
 Set Environment variables for:
-src_dir = os.environ.get('SRC_DIR')
-src_file_pattern = f'{os.environ.get("SRC_FILE_PATTERN")}-*'
-tgt_dir = os.environ.get('TGT_DIR')
+
+export ENVIRON=PROD
+export SRC_DIR=s3://emr-shashank-iam/prd/landing/ghactivity/
+export SRC_FILE_FORMAT=json
+export TGT_DIR=s3://emr-shashank-iam/prd/raw/ghactivity/
+export SRC_FILE_PATTERN=2021-01-13
 
 Run App.py main method
 
