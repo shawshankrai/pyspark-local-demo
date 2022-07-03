@@ -7,10 +7,10 @@ Set Environment variables for:
 * src_file_pattern = f'{os.environ.get("SRC_FILE_PATTERN")}-*'
 * tgt_dir = os.environ.get('TGT_DIR')
 
-[hadoop@ip-172-31-34-162 spark-jobs]$ export ENVIRON=PROD
-[hadoop@ip-172-31-34-162 spark-jobs]$ export SRC_DIR=s3://emr-shashank-iam/prd/landing/ghactivity/
-[hadoop@ip-172-31-34-162 spark-jobs]$ export SRC_FILE_FORMAT=json
-[hadoop@ip-172-31-34-162 spark-jobs]$ export TGT_DIR=s3://emr-shashank-iam/prd/raw/ghactivity/
+* [hadoop@ip-172-31-34-162 spark-jobs]$ export ENVIRON=PROD
+* [hadoop@ip-172-31-34-162 spark-jobs]$ export SRC_DIR=s3://emr-shashank-iam/prd/landing/ghactivity/
+* [hadoop@ip-172-31-34-162 spark-jobs]$ export SRC_FILE_FORMAT=json
+* [hadoop@ip-172-31-34-162 spark-jobs]$ export TGT_DIR=s3://emr-shashank-iam/prd/raw/ghactivity/
 
 Run App.py main method
 
