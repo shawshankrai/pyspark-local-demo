@@ -8,6 +8,7 @@ export ENVIRON=PROD
 export SRC_DIR=s3://emr-shashank-iam/prd/landing/ghactivity/
 export SRC_FILE_FORMAT=json
 export TGT_DIR=s3://emr-shashank-iam/prd/raw/ghactivity/
+export SRC_FILE_PATTERN=2021-01-13
 
 Run App.py main method
 
