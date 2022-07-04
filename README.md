@@ -29,7 +29,9 @@ Configuration for cluster mode:
 
 
 Spark Submit Cluster:
+
 ![image](https://user-images.githubusercontent.com/96636835/177211156-655f6526-2806-4387-8a82-320b160ee47b.png)
 
 Spark Submit Client:
+
 ![image](https://user-images.githubusercontent.com/96636835/177211333-0a275626-f2ce-458a-bada-ffbc760bc21e.png)
