@@ -16,3 +16,11 @@ To Zip files in powershell use:
 Compress-Archive -Path processor\process.py, reader\read.py, writer\write.py, util\util.py .\demo-pyspark-code
 
 Save Zip and App in same folder on cluster for spark-submit
+
+Configuration for cluster mode:
+--conf "spark.yarn.appMasterEnv.ENVIRON=PROD"
+--conf "spark.yarn.appMasterEnv.SRC_DIR=s3://emr-shashank-iam/prd/landing/ghactivity/"
+--conf "spark.yarn.appMasterEnv.SRC_FILE_FORMAT=json"
+--conf "spark.yarn.appMasterEnv.TGT_DIR=s3://emr-shashank-iam/prd/raw/ghactivity/"
+--conf "spark.yarn.appMasterEnv.SRC_FILE_PATTERN=2021-01-13"
+--py-files s3://emr-shashank-iam/zip/demo-pyspark-code.zip![image](https://user-images.githubusercontent.com/96636835/177211067-0f19e793-b4f9-4454-8b5a-46d8855d26ae.png)
